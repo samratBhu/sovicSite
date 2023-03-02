@@ -10,24 +10,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>SOVIC AEC</title>
+    <title>About Us</title>
     <style>
         .sovic {
             font-size: 40px;
             text-align: center;
-            color:rgb(7, 150, 202) ;
+            color: rgb(7, 150, 202);
         }
+
         .about {
             text-align: center;
-            color:  rgb(7, 150, 202); 
+            color: rgb(7, 150, 202);
+            font:
         }
+
         #about1 {
             margin: 40px;
             word-wrap: normal;
         }
+
         .container {
             display: flex;
-            
+
             align-items: center;
             column-gap: 0px;
         }
@@ -52,11 +56,13 @@
         }
 
         .btn2 {
-            margin-left: 710px;
-            margin-top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: rgb(215, 211, 211);
             border: none;
             border-radius: 30px;
+            margin-left: 50%;
         }
 
         .btn3 {
@@ -68,24 +74,27 @@
         }
 
         .container2 {
-            align-items: center;
+            align-content: center;
             display: flex;
             padding: 20px;
             margin-top: 80px;
             margin-right: 160px;
             background-color: aliceblue;
+            position: relative;
 
         }
 
         .container3 {
 
-            align-items: center;
+            align-content: center;
             display: flex;
             padding: 20px;
             margin-top: 80px;
             margin-right: 160px;
             background-color: aliceblue;
+            position: relative;
         }
+
         .container5 {
             display: flex;
             background-color: aliceblue;
@@ -95,8 +104,8 @@
             text-align: center;
             margin-top: 80px;
             margin-bottom: 10px;
-            color:  rgb(7, 150, 202);
-            font-family:'Times New Roman', Times, serif;
+            color: rgb(7, 150, 202);
+            font-family: 'Times New Roman', Times, serif;
         }
 
         .card {
@@ -109,23 +118,33 @@
             margin-left: auto;
             box-shadow: -5px 7px rgb(83, 199, 235);
         }
+
         #card-5 {
+            min-width: 110px;
             border-radius: 100%;
             margin-right: 20px;
             margin-left: 20px;
+            max-height: 200px;
+           
         }
+
         #card-6 {
+            min-width: 140px;
             border-radius: 100%;
+            max-height: 200px;
         }
+
         #card-7 {
             align-items: center;
             border: none;
-            
+
         }
+
         #card-8 {
             align-items: center;
             border: none;
         }
+
         #card-9 {
             align-items: center;
             border: none;
@@ -143,21 +162,27 @@
             display: flex;
             padding: 10px;
             margin: 150px;
-            
+
         }
+
+        .bold {}
 
         .events {
             text-align: center;
             margin-left: 40px;
             margin-right: 40px;
         }
-        .second{
-            background-color:aliceblue;
+
+        .second {
+            background-color: aliceblue:
         }
-        .quotation{
+
+        .quotation {
             width: 50px;
-            margin-left: 710px;
-            margin-top: 40px;
+            margin-top: 20px;
+             position: relative;
+             margin-left: 50%;
+            align-items: center;
         }
     </style>
 </head>
@@ -165,7 +190,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand col-sm-3" href="#">
-            <img src="images/logo.jpeg" width="70" height="70" alt="">
+            <img src="images/index.jpeg" width="70" height="70" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -174,13 +199,14 @@
         <div class="collapse navbar-collapse col-sm-9" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item col-2 active">
-                    <a class="nav-link text-center bg-primary text-white rounded-pill" href="index.html">Home</a>
+                    <a class="nav-link bg-primary text-white rounded-pill text-center" href="#">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link text-center" href="about.html">About</a>
+                    <a class="nav-link text-center" href="#">About</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link text-center" href="programs.html">Programs</a>
+                    <a class="nav-link text-center" href="#">Program</a>
                 </li>
                 <li class="nav-item col-2">
                     <a class="nav-link text-center" href="#">Blog</a>
@@ -189,19 +215,17 @@
                     <a class="nav-link text-center" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link text-center" href="joinUs.html">Join us</a>
+                    <a class="nav-link text-center" href="#">Join us</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link text-center" href="contact.html">Contact</a>
+                    <a class="nav-link text-center" href="#">Contact</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link text-center" href="donate.html">Donate</a>
+                    <a class="nav-link text-center" href="#">Donate</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -210,7 +234,8 @@
         </div>
     </div>
     <h1 class="about">ABOUT US</h1>
-    <p class="text-center" id="about1">SOVIC is the social responsibility cell of Assam Engineering College, Guwahati. It's a
+    <p class="text-center" id="about1">SOVIC is the social responsibility cell of Assam Engineering College, Guwahati.
+        It's a
         youth-led and student body volunteering
         organization, working up to the society's consciousness regarding its betterment and general welfare. SOVIC
         stands for Social and
@@ -230,39 +255,40 @@
         </div>
     </div>
     <div class="second">
-    <h2 class=ofp>OUR FLAGSHIP PROGRAMS</h2>
-    <div class="container2">
-        <div class="card" id="card-1">
-            <img src="" alt="...">
-            <h4 class="text-center">PRAYAS</h4>
-            <p class="text-center">As a part of this initiative, we visit the orphanages and
-                poor schools to interact with the students there.</p>
-        </div>
-        <div class="card" id="card-2">
-            <img src="" alt="...">
-            <h4 class="text-center">DAAN UTSAV</h4>
-            <p class="text-center">Experience the joy in giving! This event has three phases;
-                Vastra Daan, Bhojan Daan and Vidya daan.</p>
-        </div>
+        <h2 class=ofp>OUR FLAGSHIP PROGRAMS</h2>
+        <div class="container2">
+            <div class="card" id="card-1">
+                <img src="" alt="...">
+                <h4 class="text-center">PRAYAS</h4>
+                <p class="text-center">As a part of this initiative, we visit the orphanages and
+                    poor schools to interact with the students there.</p>
+            </div>
+            <div class="card" id="card-2">
+                <img src="" alt="...">
+                <h4 class="text-center">DAAN UTSAV</h4>
+                <p class="text-center">Experience the joy in giving! This event has three phases;
+                    Vastra Daan, Bhojan Daan and Vidya daan.</p>
+            </div>
 
-    </div>
-    <div class="container3">
-        <div class="card" id="card-3">
-            <img src="" alt="...">
-            <h4 class="text-center">FLOOD RELIEF</h4>
-            <P class="text-center">Many of our members along with their family have
-                distributed essentials and shelter to the needy</P>
         </div>
-        <div class="card" id="card-4">
-            <img src="" alt="...">
-            <h4 class="text-center">CLEANLINESS DRIVE</h4>
-            <P class="text-center">Students are divided into groups and clean the campus.
-                The waste products are recycled.</P>
+        <div class="container3">
+            <div class="card" id="card-3">
+                <img src="" alt="...">
+                <h4 class="text-center">FLOOD RELIEF</h4>
+                <P class="text-center">Many of our members along with their family have
+                    distributed essentials and shelter to the needy</P>
+            </div>
+            <div class="card" id="card-4">
+                <img src="" alt="...">
+                <h4 class="text-center">CLEANLINESS DRIVE</h4>
+                <P class="text-center">Students are divided into groups and clean the campus.
+                    The waste products are recycled.</P>
+            </div>
         </div>
+            <button type="button" class="btn2">Read More</button>
+        
     </div>
-    <button type="button" class="btn2">Read More</button>
-    </div>
-    
+
     <div class="container4">
         <div class="text">
             <p class="text-center">Over the last seven years, SOVIC has been working on inspiring
@@ -275,7 +301,7 @@
 
         </div>
         <div class="card" id="card-5">
-         
+
             <h4 class="text-center">5</h4>
             <h5 class="text-center">PROJECTS</h5>
         </div>
@@ -297,29 +323,29 @@
         </p>
     </div>
     <div class="container5">
-    <div class="card" id="card-7">
-        <img src="images/pngegg.png" alt="...">
-        
-        <h3 class="text-center">SHEROS</h3>
-        <p class="text-center">An initiative to promote women
-            empowerment</p>
-    </div>
-    <div class="card" id="card-8">
-    <img src="images/vecteezy_dollar-icon-sign-symbol-design_9362957_443.png" alt="">
-        
-        <h3 class="text-center">ILLUMINE ZEST</h3>
-        <p class="text-center">Fundraising event for donating to
-            orphanages</p>
-    </div>
-    <div class="card" id="card-9">
-        <img src="images/drop-of-blood.png" alt="">
-            
+        <div class="card" id="card-7">
+            <img src="images/pngegg.png" alt="...">
+
+            <h3 class="text-center">SHEROS</h3>
+            <p class="text-center">An initiative to promote women
+                empowerment</p>
+        </div>
+        <div class="card" id="card-8">
+            <img src="images/vecteezy_dollar-icon-sign-symbol-design_9362957_443.png" alt="">
+
+            <h3 class="text-center">ILLUMINE ZEST</h3>
+            <p class="text-center">Fundraising event for donating to
+                orphanages</p>
+        </div>
+        <div class="card" id="card-9">
+            <img src="images/drop-of-blood.png" alt="">
+
             <h3 class="text-center">BLOOD DONATION CAMP</h3>
             <p class="text-center">An annual program of SWC organised
                 along with SOVIC</p>
         </div>
-</div>
-<img class="quotation" src="images/73-739376_quotation-marks-blue-quotation-marks-png.png" alt="">
+    </div>
+    <img class="quotation" src="images/73-739376_quotation-marks-blue-quotation-marks-png.png" alt="">
     <div class="container4">
         <div class="text-center">
             A pool of children
@@ -357,11 +383,10 @@
     <div class="text-center">
         <button class="btn3">DONATE NOW</button>
     </div>
-
     <footer class="container-fluid bg-dark text-white">
         <div class="row">
             <div class="col-2 text-center m-auto">
-                <img src="images/logo_no_bg.png" alt="" height="70" width="70"
+                <img src="images/logo_no_bg.png" alt="" height="80" width="80"
                     class="border border-white rounded-circle">
                 <small class="d-block mb-3 text-white">© 2023-2024</small>
             </div>
@@ -372,9 +397,9 @@
                 <hr style="background-color: #007bff; height: 2px;">
                 <div>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-white" href="index.html">Home</a></li>
+                        <li><a class="text-white" href="#">Home</a></li>
                         <li><a class="text-white" href="about.html">About</a></li>
-                        <li><a class="text-white" href="programs.html">Programs</a></li>
+                        <li><a class="text-white" href="#">Programs</a></li>
                         <li><a class="text-white" href="#">Blog</a></li>
                         <li><a class="text-white" href="joinUs.html">Join Us</a></li>
                     </ul>
